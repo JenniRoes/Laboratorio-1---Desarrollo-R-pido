@@ -1,0 +1,90 @@
+/*Navbar styles*/
+.custom-logo {
+    max-width: 4rem;
+}
+
+.my-main-menu {
+    width: 90%;
+    margin: 2rem 5%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #004643;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.my-main-menu .site-title {
+    display: inline-flex;
+    color: white;
+}
+
+.my-navbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.my-navbar li{
+    list-style: none;
+}
+
+.my-navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.my-navbar li a:hover {
+    color: #ABD1C6;
+}
+
+/*General styles*/
+
+.relative-container.elementor-widget {
+    position: relative;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.background-element.elementor-widget {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background-element.elementor-widget img {
+    height: 100%;
+    max-width: unset;
+    object-fit: cover;
+}
+
+.content-container.elementor-element {
+    height: 100%;
+    width: 100%;
+
+}
+
+.m-5 {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 40em) {
+	/* #menu is the original menu */
+	.my-main-menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+		display:block;
+	}
+}
